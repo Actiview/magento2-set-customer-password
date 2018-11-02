@@ -3,7 +3,7 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="customer_edit_tab_view">
-            <block class="Magento\Customer\Block\Adminhtml\Edit\Tab\View\PersonalInfo" name="set-customer-password" after="customer_form" template="Actiview_SetCustomerPassword::tab/view/set_customer_password.phtml"/>
+            <block class="Actiview\SetCustomerPassword\Block\Adminhtml\Customer\Edit\Tab\View\SetPassword" name="set-customer-password" after="customer_form" template="Actiview_SetCustomerPassword::tab/view/set_customer_password.phtml"/>
         </referenceContainer>
     </body>
 </page>

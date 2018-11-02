@@ -40,6 +40,14 @@ class SetPassword extends \Magento\Backend\App\Action
     }
 
     /**
+     * @inheritdoc
+     */
+    protected function _isAllowed()
+    {
+        return $this->_authorization->isAllowed('Actiview_SetCustomerPassword::set_password');
+    }
+
+    /**
      * Set new password for customer from backend
      *
      * @return \Magento\Framework\App\ResponseInterface
