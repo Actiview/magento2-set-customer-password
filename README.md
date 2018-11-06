@@ -25,6 +25,10 @@ php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 ```
 ## Changelog
+### 0.2.0.1
+Update readme
+### 0.2.0
+Add ACL to allow non-admin backend users to the feature.
 ### 0.1.0 
 First release of this module.
 
